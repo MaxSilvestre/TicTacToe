@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Tic-tac-toe</title>
+    <meta name="Maxime Silvestre" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onload="init()">
+    <h1 id="title">Joueur <span id="current-player">x</span> à vous !!!</h1>
+    <table id="board"></table>
+    <div id="modal">
+      <p id="modal-content"></p>
+      <button class="btn btn-restart" onclick="resetGame()" type="button">
+        Recommencer
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
