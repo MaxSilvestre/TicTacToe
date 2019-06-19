@@ -25,7 +25,7 @@ function populate(board) {
         }
         if (nextPlayer(state) === null) {
           modal.style.display = 'block';
-          modalContent.innerHTML = ' La partie est fini';
+          modalContent.innerHTML = ' La partie est finie';
         }
       });
       newLine.appendChild(newItem);
